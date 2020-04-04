@@ -22,7 +22,7 @@ class Owner
   
  
   def say_species
-    "I am a #{self.species}."
+    "I am a #{self.species}." #"I am a human."
   end
   
    def self.reset_all
