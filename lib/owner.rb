@@ -33,7 +33,9 @@ class Owner
    # @@pets 
   #end
   
- 
+ def cats
+   
+ end
   
  
 end
