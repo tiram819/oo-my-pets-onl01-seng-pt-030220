@@ -45,7 +45,7 @@ class Owner
  end
  end
  
-  
+  def buy_cats
  
 end
 
