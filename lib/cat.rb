@@ -6,7 +6,7 @@ class Cat
   @@pets = {:pets => [], :cats => []}
   
   
-  def initialize(name, mood)
+  def initialize(name, owner)
       @name = name  #can have a name
       @mood = "nervous" 
       @owner = Owner
