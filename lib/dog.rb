@@ -6,10 +6,10 @@ class Dog
   @@pets = {:pets => [], :dogs => []}
   
   
-  def initialize(name, mood)
+  def initialize(name, owner)
       @name = name  #can have a name
       @mood = "nervous" 
-      @owner = Owner
+      @owner = owner
       save
     end 
     
