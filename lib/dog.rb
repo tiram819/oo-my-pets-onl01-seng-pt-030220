@@ -25,5 +25,11 @@ end
   def self.count
     @@all.length 
   end 
+  
+  def dogs
+   Cat.all.select do |dog|
+     dog.owner == self
+ end
+ end
  
 end
