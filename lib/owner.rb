@@ -29,9 +29,9 @@ class Owner
     @@all.clear
   end
   
-  def pets
-    @@pets 
-  end
+  #def pets
+   # @@pets 
+  #end
   
  
   
