@@ -27,7 +27,7 @@ end
   end 
   
   def dogs
-   Cat.all.select do |dog|
+   Dog.all.select do |dog|
      dog.owner == self
  end
  end
